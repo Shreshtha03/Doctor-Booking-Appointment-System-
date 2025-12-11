@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// HARDCODED URL to ensure it works on Vercel
-const baseUrl = 'https://doctor-booking-appointment-system-xro5.onrender.com/api';
+// Reverted to Localhost for development/fixing
+const baseUrl = 'http://localhost:3000/api';
 console.log("🔌 Connecting to Backend at:", baseUrl);
 
 const api = axios.create({
